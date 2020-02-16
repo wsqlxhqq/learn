@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f01cc2b-8ff1-49ca-9cdc-be27a5156870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Component/monolog/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/DateTimeImmutable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/ErrorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/ChromePHPFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/ElasticaFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/ElasticsearchFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/FlowdockFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/FluentdFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/FormatterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/GelfMessageFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/HtmlFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/JsonFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/LineFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/LogglyFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/LogmaticFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/LogstashFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/MongoDBFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/NormalizerFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/ScalarFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Formatter/WildfireFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/AbstractHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/AmqpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/BufferHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ChromePHPHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/CouchDBHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/CubeHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/Curl/Util.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/DeduplicationHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/DynamoDbHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ElasticaHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ElasticsearchHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ErrorLogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FallbackGroupHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FilterHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FingersCrossedHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FirePHPHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FleepHookHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FlowdockHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FormattableHandlerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/FormattableHandlerTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/GelfHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/GroupHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/HandlerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/HandlerWrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/IFTTTHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/InsightOpsHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/LogEntriesHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/LogglyHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/LogmaticHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/MailHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/MandrillHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/MissingExtensionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/MongoDBHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/NativeMailerHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/NewRelicHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/NoopHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/NullHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/OverflowHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/PHPConsoleHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ProcessHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ProcessableHandlerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ProcessableHandlerTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/PsrHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/PushoverHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/RedisHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/RollbarHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/RotatingFileHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SamplingHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SendGridHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/Slack/SlackRecord.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SlackHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SlackWebhookHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SocketHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SqsHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/StreamHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SwiftMailerHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SyslogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/SyslogUdpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/TelegramBotHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/TestHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/WebRequestRecognizerTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Handler/ZendMonitorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/GitProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/HostnameProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/IntrospectionProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/MemoryProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/MercurialProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/ProcessIdProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/ProcessorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/TagProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/UidProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Processor/WebProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Registry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/ResettableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/SignalHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Test/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component/monolog/src/Monolog/Utils.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/monolog/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-545" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/learn.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/LinkedList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-607">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/monolog/src/Monolog/Test/TestCase.php" />
+        <option value="$PROJECT_DIR$/monolog/README.md" />
+        <option value="$PROJECT_DIR$/monolog/Component/monolog/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/LinkedList.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="193" />
+    <option name="y" value="14" />
+    <option name="width" value="1697" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f01cc2b-8ff1-49ca-9cdc-be27a5156870" name="Default Changelist" comment="" />
+      <created>1581833649068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581833649068</updated>
+      <workItem from="1581833650159" duration="1329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1329000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/monolog/src/Monolog/Test/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <folding>
+              <element signature="e#6#25#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/UPGRADE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-540" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/LinkedList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolog/Component/monolog/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/learn.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
