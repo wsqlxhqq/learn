@@ -36,6 +36,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
             'datetime' => new DateTimeImmutable(true),
             'extra' => [],
         ];
+        
     }
 
     protected function getMultipleRecords(): array
